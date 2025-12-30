@@ -57,9 +57,9 @@ Any misuse, unauthorized scanning, or illegal activity performed using this fram
 Clone the repository and set permissions:
 
 ```bash
-git clone https://github.com/Iborrareddy/Recon-Enhanced.git
+git clone https://github.com/Iborrareddy/ReconEnhanced.git
 cd Recon-Enhanced
-chmod +x recon-enhanced.sh
+chmod +x ReconEnhanced.sh
 ```
 
 ---
