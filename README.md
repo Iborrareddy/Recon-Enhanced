@@ -132,7 +132,7 @@ The interactive HTML report includes:
 
 ## 🧑‍💻 Author
 
-**Madhan Mohan Reddy Borra**  
+**Madhan Mohan**  
 Cybersecurity Enthusiast | Recon Automation Developer | Blue/Purple Team Aspirant
 
 ---
