@@ -34,3 +34,107 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install -v github.com/lc/gau/v2/cmd/gau@latest
 pipx install subdominator
 pipx install waymore
+
+
+---
+
+## 📥 Installation
+
+Clone the repository and set permissions:
+
+```bash
+git clone https://github.com/Iborrareddy/Recon‑Enhanced.git
+cd Recon‑Enhanced
+chmod +x recon‑enhanced.sh
+```
+
+---
+
+## ▶️ Usage
+
+Run reconnaissance on a target domain:
+
+```bash
+./recon‑enhanced.sh example.com
+```
+
+After completion, open the generated HTML report:
+
+```bash
+open example.com_recon_enhanced/report.html
+```
+
+---
+
+## 📁 Output Structure
+
+```
+example.com_recon_enhanced/
+├── subdomains/
+├── takeover/
+├── urls/
+├── active/
+└── report.html
+```
+
+---
+
+## 📊 Report Dashboard
+
+The interactive HTML report includes:
+
+- Recon summary + stats chart
+- Live hosts table with detected technologies
+- Subdomain takeover vulnerability log
+- Archived URLs
+- JavaScript file list
+- Nmap port scan results
+- Search filter across sections
+- Sortable table columns
+
+---
+
+## ⚡ Quick Reference
+
+| Phase | Task |
+|---:|---|
+| 1 | Passive subdomain enumeration |
+| 2 | Active probing & tech detection |
+| 3 | Subdomain takeover scan |
+| 4 | URL archive discovery |
+| 5 | JavaScript extraction |
+| 6 | Active port scanning |
+| 7 | Interactive HTML report generation |
+
+---
+
+## 📌 Notes
+
+- Only run on **authorized targets**
+- Unauthorized scanning is **illegal and unethical**
+- Keep recon tools updated for best results
+
+---
+
+## 🧑‍💻 Author
+
+**Madhan Mohan**  
+Cybersecurity Enthusiast | Recon Automation Developer | Blue/Purple Team Aspirant
+
+---
+
+## ⭐ Contribute
+
+Feel free to:
+
+- ⭐ Star the repository
+- 🍴 Fork and extend it
+- 🐛 Report bugs or open issues
+- 🔧 Submit pull requests (PRs)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – free to use, modify, and distribute.
+```
