@@ -34,8 +34,8 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install -v github.com/lc/gau/v2/cmd/gau@latest
 pipx install subdominator
 pipx install waymore
-
-
+```
+---
 
 ## 📥 Installation
 
@@ -117,7 +117,7 @@ The interactive HTML report includes:
 
 ## 🧑‍💻 Author
 
-**Madhan Mohan**  
+**Madhan Mohan Reddy Borra**  
 Cybersecurity Enthusiast | Recon Automation Developer | Blue/Purple Team Aspirant
 
 ---
@@ -130,6 +130,13 @@ Feel free to:
 - 🍴 Fork and extend it
 - 🐛 Report bugs or open issues
 - 🔧 Submit pull requests (PRs)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – free to use, modify, and distribute.
+```
 
 ---
 
