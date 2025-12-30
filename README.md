@@ -1,2 +1,103 @@
-# Recon-Enhanced
-A Professional‑grade reconnaissance automation script that basically runs like a mini‑recon engine for a target domain.   Built for security researchers, Blue/Red team beginners (like you know, the ones grinding 7 hours a day 😅), and anyone doing OSINT + network recon.
+# 🛡️ Recon‑Enhanced
+
+A **professional‑grade reconnaissance automation framework** that basically works like a mini recon engine for any target domain.  
+Built for cybersecurity researchers, Blue/Red team beginners, and OSINT lovers who want faster recon without doing everything manually.
+
+---
+
+## 🚀 Features
+
+Automated multi‑phase recon workflow:
+
+- **Passive Subdomain Enumeration** → `subfinder`, `assetfinder`
+- **Live Host + Tech Detection** → `httpx` + `jq`
+- **Subdomain Takeover Scan** → `subdominator`
+- **Archived URL Discovery** → `gau`, `waymore`
+- **JavaScript File Extraction**
+- **Active Port Scanning** → `nmap`
+- **Interactive Hacker‑Themed HTML Report**
+- Searchable + sortable recon dashboard UI
+- Structured output storage per phase
+
+---
+
+## 🧰 Prerequisites
+
+Install base dependencies and tools:
+
+```bash
+sudo apt update && sudo apt install -y golang-go pipx nmap jq
+pipx ensurepath
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/tomnomnom/assetfinder@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+go install -v github.com/lc/gau/v2/cmd/gau@latest
+pipx install subdominator
+pipx install waymore
+
+
+📥 Installation
+Clone the repository and set permissions:
+
+bash
+Copy code
+git clone https://github.com/Iborrareddy/Recon‑Enhanced.git
+cd Recon‑Enhanced
+chmod +x recon‑enhanced.sh
+▶️ Usage
+Run reconnaissance on a domain:
+
+bash
+Copy code
+./recon‑enhanced.sh example.com
+After completion, open the report:
+
+bash
+Copy code
+open example.com_recon_enhanced/report.html
+📁 Output Structure
+nix
+Copy code
+example.com_recon_enhanced/
+├── subdomains/
+├── takeover/
+├── urls/
+├── active/
+└── report.html
+📊 Report Dashboard
+The interactive HTML report includes:
+
+Recon summary + stats chart
+
+Live hosts table with detected tech
+
+Takeover vulnerability list
+
+Archived URLs
+
+JavaScript file list
+
+Nmap port scan results
+
+Search filter across sections
+
+Sortable table columns
+
+⚡ Quick Reference
+Phase	Task
+1	Passive subdomain enumeration
+2	Active probing & tech detection
+3	Subdomain takeover scan
+4	URL archive discovery
+5	JavaScript extraction
+6	Active port scanning
+7	Interactive HTML report generation
+
+📌 Notes
+Only run on authorized targets
+
+Unauthorized scanning is illegal and unethical
+
+Keep tools updated for best results
+
+
