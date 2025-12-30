@@ -37,6 +37,14 @@ pipx install waymore
 ```
 ---
 
+
+## ⚠️ Disclaimer
+
+This tool is built for **security research and authorized penetration testing only**.  
+Any misuse, unauthorized scanning, or illegal activity performed using this framework is **not the responsibility of the author or contributors**.
+
+---
+
 ## 📥 Installation
 
 Clone the repository and set permissions:
@@ -130,13 +138,6 @@ Feel free to:
 - 🍴 Fork and extend it
 - 🐛 Report bugs or open issues
 - 🔧 Submit pull requests (PRs)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** – free to use, modify, and distribute.
-```
 
 ---
 
