@@ -36,7 +36,6 @@ pipx install subdominator
 pipx install waymore
 
 
----
 
 ## 📥 Installation
 
