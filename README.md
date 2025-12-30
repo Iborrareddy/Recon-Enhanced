@@ -57,7 +57,7 @@ Any misuse, unauthorized scanning, or illegal activity performed using this fram
 Clone the repository and set permissions:
 
 ```bash
-git clone https://github.com/Iborrareddy/ReconEnhanced.git
+git clone https://github.com/Iborrareddy/Recon-Enhanced.git
 cd Recon-Enhanced
 chmod +x ReconEnhanced.sh
 ```
@@ -69,7 +69,7 @@ chmod +x ReconEnhanced.sh
 Run reconnaissance on a target domain:
 
 ```bash
-./recon‑enhanced.sh example.com
+./ReconEnhanced.sh example.com
 ```
 
 After completion, open the generated HTML report:
@@ -151,4 +151,6 @@ Feel free to:
 ## 📄 License
 
 This project is licensed under the **MIT License** – free to use, modify, and distribute.
-```
+
+---
+
