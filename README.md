@@ -58,7 +58,7 @@ Clone the repository and set permissions:
 
 ```bash
 git clone https://github.com/Iborrareddy/Recon-Enhanced.git
-cd Recon‑Enhanced
+cd Recon-Enhanced
 chmod +x recon‑enhanced.sh
 ```
 
