@@ -1,9 +1,16 @@
-# 🛡️ Recon‑Enhanced
+# 🛡️ Recon-Enhanced
 
-A **Professional‑Grade Reconnaissance Automation Framework** that basically works like a mini recon engine for any target domain.  
-Built for cybersecurity researchers, Blue/Red team beginners, and OSINT lovers who want faster recon without doing everything manually.
+<p>
+  <strong style="font-size:17px;">
+    A professional-grade reconnaissance automation framework that basically works like a mini recon engine for any target domain.
+  </strong><br>
+  <em>
+    Built for cybersecurity researchers, Blue/Red team beginners, and OSINT lovers who want faster recon without doing everything manually.
+  </em>
+</p>
 
 ---
+
 
 ## 🚀 Features
 
